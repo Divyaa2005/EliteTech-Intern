@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS library for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Divya</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications"> Certification </a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <h1 data-aos="fade-down">Hi, I'm <span>Divya</span></h1>
+    <p data-aos="fade-up">A passionate Web Developer and CSE Student</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 data-aos="zoom-in">About Me</h2>
+    <p data-aos="fade-up">
+      I'm a Computer Science Engineering student , passionate web devloper. Skilled in HTML, CSS, JavaScript ,Responsive web design , Frontend project development,and Python. Enthusiastic about learning AI,IoT and Cloud.Currently learning advanced JavaScript and Responsive Design.
+      I love building creative and responsive web applications.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 data-aos="zoom-in">My Projects</h2>
+    <div class="project-list">
+      <div class="project-card" data-aos="fade-right">
+        <h3>Tic Tac Toe</h3>
+        <p>A fun two-player game built using JavaScript.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card" data-aos="fade-up">
+        <h3>Rock Paper Scissors</h3>
+        <p>Simple game with user vs computer logic.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card" data-aos="fade-left">
+        <h3>Amazon Clone</h3>
+        <p>A front-end clone of Amazon’s homepage using HTML & CSS.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+    <!--  Certifications Section -->
+  <section class="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-card">
+      <h3>Prompt Engineering</h3>
+      <p>Issued by: Coursera</p>
+    </div>
+    <div class="cert-card">
+      <h3>Introduction to Generative AI</h3>
+      <p>Issued by: Coursera</p>     
+    </div>
+    <div class="cert-card">
+      <h3>Internet of Things & Cloud</h3>
+      <p>Issued by: Coursera</p>      
+    </div>
+    <div class="cert-card">
+      <h3>Python Using Ai Workshop</h3>
+      <p>Issued by: AI for Techies</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 data-aos="zoom-in">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Divya | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

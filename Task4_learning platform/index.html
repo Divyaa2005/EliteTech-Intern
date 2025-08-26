@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 My Learning Platform</h1>
+  </header>
+
+  <main>
+    <!-- Video Section -->
+    <section class="video">
+      <h2>Lesson 1: HTML Basics</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" 
+        frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="quiz">
+      <h2>Quick Quiz</h2>
+      <p>Q1. What does HTML stand for?</p>
+      <button onclick="checkAnswer(this, true)">HyperText Markup Language</button>
+      <button onclick="checkAnswer(this, false)">HighText Machine Language</button>
+      <p id="quiz-result"></p>
+    </section>
+
+    <!-- Progress -->
+    <section class="progress">
+      <h2>Your Progress</h2>
+      <progress id="progressBar" value="20" max="100"></progress>
+      <p>20% completed</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Learning Platform</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

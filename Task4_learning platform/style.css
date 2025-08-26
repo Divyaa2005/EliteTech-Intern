@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #6a11cb;
+  color: white;
+  padding: 15px;
+}
+
+section {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6a11cb;
+}
+
+progress {
+  width: 80%;
+  height: 20px;
+}
