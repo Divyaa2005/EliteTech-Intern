@@ -1,4 +1,4 @@
-// Smooth scrolling for navbar links
+//  Smooth scrolling for navbar links
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
@@ -13,3 +13,4 @@ document.querySelector("form").addEventListener("submit", function(e) {
   e.preventDefault();
   alert("Thanks for reaching out! I'll reply soon.");
 });
+
