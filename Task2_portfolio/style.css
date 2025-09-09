@@ -120,6 +120,50 @@ body {
   font-weight: bold;
 }
 
+/* certification */
+.certification-title {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+/* Certification Section */
+
+/* Container */
+.certification {
+  display: flex;
+  justify-content: center;   /* center me aayega */
+  flex-wrap: wrap;           /* responsive wrap */
+  gap: 20px;                 /* equal distance between cards */
+  margin: 30px auto;
+  max-width: 1000px;         /* center me ek limit */
+}
+
+/* Each Certificate Card */
+.cert-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;              /* fix size so sab equal ho */
+  min-height: 120px;         /* equal height */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}
+
+/* Certificate link inside card */
+.cert-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 /* Contact */
 form {
   max-width: 400px;
